@@ -1,0 +1,93 @@
+body {
+    margin: auto;
+    width: 90%;
+    font-family: sans-serif;
+    
+}
+ul li {
+    list-style: none;
+    padding-bottom: 5px;
+   font-size: 14px;
+}
+p {
+    line-height: 1.6em; 
+}
+hr.rounded {
+    border-top: 3px solid #bbb;
+  }
+th {
+  text-align: left;
+
+}
+
+table, th, td {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    
+}
+
+th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 15px;
+}
+tr {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-bottom: thin solid #dddddd;
+}
+td {
+ padding: 12px 15px;
+}
+tr:nth-child(odd){
+    background-color: lightskyblue;
+}
+tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+tr.rowDelete:hover{
+    background-color: gold;
+}
+
+ tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+button {
+     cursor: pointer;
+     border-radius: 4px;
+     border: none;
+     margin: 10px;
+     font-size: 0.9em;
+     font-family: sans-serif;
+     padding: 15px 17px;
+     text-transform: uppercase;
+     letter-spacing: 0.5px;
+     background-color: orange;
+}
+button:first-of-type {
+    background-color: #009879;
+    color:papayawhip;
+}
+
+button:hover {
+    color:orangered;
+    background-color: gold;
+    transition: all 0.4s ease 0s;
+
+}
+#cont {
+    margin: 0px auto;
+    width: 100%;
+   
+}
+
