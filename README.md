@@ -1,4 +1,4 @@
-# test_dynamic_table.github.io
+# test_dynamic_table
 
   <h4>За основу взят следующий JSON:</h4>  
     <ul>
